@@ -46,6 +46,7 @@ No terminal rodar o comando do docker, lembrando que a maquina terá que ter o d
 ```bash
 
 docker-compose up -d
+```
 
 ## Autor
 
