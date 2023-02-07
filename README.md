@@ -39,7 +39,7 @@ Eu-Levo Delivery applicativo de entregas
     - Elastic
 
 
-## Rodando o app
+## Rodando app
 
 ### Simulator
 
