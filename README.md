@@ -7,6 +7,7 @@ Eu-Levo Delivery applicativo de entregas
 - [Rodando o app](#Rodando-app)
     - [Simulator](#Simulator)
     - [Kafka](#kafka)
+- [nest-api-backend](#nest)
 
 
 
@@ -75,6 +76,16 @@ Consumidor que fica ouvindo as mensagens do produtor
 kafka-console-consumer --bootstrap-server=localhost:9092 --topic=route.new-position --group=terminal
 
 ```
+
+## nest
+
+```bash
+
+chmod +X .docker/entrypoint.sh
+
+```
+
+
 ## Autor
 
 - [@Samuel Jose Souza Oliveira](https://www.linkedin.com/in/samuel-jose-souza-oliveira-81b1177b/)
