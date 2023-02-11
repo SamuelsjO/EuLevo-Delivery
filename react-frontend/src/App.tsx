@@ -1,10 +1,13 @@
-import './App.css';
+import { CssBaseline, MuiThemeProvider } from "@material-ui/core";
+import { Mapping } from "./components/Mapping";
+import theme from "./theme";
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <CssBaseline />
+      <Mapping />
+    </MuiThemeProvider>
   );
 }
 

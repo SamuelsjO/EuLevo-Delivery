@@ -6,6 +6,6 @@ services:
     build: .
     entrypoint: ./.docker/entrypoint.sh
     ports:
-      - 3000:3000
+      - 3001:3001
     volumes:
       - .:/home/node/app
